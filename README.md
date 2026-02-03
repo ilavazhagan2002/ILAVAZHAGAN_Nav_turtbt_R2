@@ -47,6 +47,14 @@ Gazebo
 
 RViz
 
+# Structure
+ros2_ws/
+├── src/
+│   ├── turtlebot3_navigation/
+│   └── turtlebot3_gazebo/
+├── launch/
+├── config/
+
 # Running the Simulation
 1. Build the workspace
 colcon build --symlink-install
